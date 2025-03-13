@@ -1,0 +1,16 @@
+URL: https://example.com
+Content: Example Domain Example Domain This domain is for use in illustrative examples in documents. You may use this
+    domain in literature without prior coordination or asking for permission. More information...
+
+URL: https://www.iana.org/domains/example
+Content: Example Domains Domains Protocols Numbers About Example Domains As described in RFC 2606 and RFC 6761 , a
+number of domains such as example.com and example.org are maintained
+for documentation purposes. These domains may be used as illustrative
+examples in documents without prior coordination with us. They are not
+available for registration or transfer. We provide a web service on the example domain hosts to provide basic
+information on the purpose of the domain. These web services are
+provided as best effort, but are not designed to support production
+applications. While incidental traffic for incorrectly configured
+applications is expected, please do not design applications that require
+the example domains to have operating HTTP service. Further Reading IANA-managed Reserved Domains Last revised 2017-05-13. Domain Names Root Zone Registry .INT Registry .ARPA Registry IDN Repository Number Resources Abuse Information Protocols Protocol Registries Time Zone Database About Us News Performance Excellence Archive Contact Us The IANA functions coordinate the Internet’s globally unique identifiers, and
+                are provided by Public Technical Identifiers , an affiliate of ICANN . Privacy Policy Terms of Service

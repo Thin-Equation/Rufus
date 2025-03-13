@@ -1,0 +1,37 @@
+{
+  "title": "Meta Privacy Policies and Employment Practices Overview",
+  "summary": "Meta outlines its Equal Employment Opportunity policies, detailed data collection practices across products, and specific health data handling. The company emphasizes non-discrimination, user data usage for personalization/ads, and international data transfers while providing transparency about contact information collection from non-users.",
+  "key_points": [
+    "Prohibits discrimination based on 15+ protected characteristics",
+    "Collects extensive user data including device info, location, and content interactions",
+    "Uses AI and manual review for content moderation/safety",
+    "Shares data globally across Meta companies and third parties",
+    "Provides specific health data protections under Consumer Health Privacy Policy"
+  ],
+  "content_sections": [
+    {
+      "heading": "Equal Employment Opportunity",
+      "content": "Meta prohibits discrimination based on race, religion, gender identity, disability status and 12 other protected characteristics. Provides accommodations for disabilities/religious needs during recruitment."
+    },
+    {
+      "heading": "Data Collection Practices",
+      "content": "Collects device info, location data, content interactions, purchase history and biometric data (via camera features). Uses data for ad targeting, product improvement, and AI training across Facebook/Instagram/Meta ecosystem."
+    },
+    {
+      "heading": "Non-User Contact Processing",
+      "content": "Uploads and stores non-users' contact info from users' address books for friend suggestions and security purposes. Retains data based on legal requirements and safety needs."
+    },
+    {
+      "heading": "Health Data Handling",
+      "content": "Special protections for health conditions, treatments, genetic data and precise location info related to health. Shares consumer health data with researchers, law enforcement and business partners as permitted."
+    },
+    {
+      "heading": "International Data Transfers",
+      "content": "Transfers user data globally using EU standard clauses and adequacy decisions. Maintains servers in US, Ireland, Sweden and other locations."
+    }
+  ],
+  "metadata": {
+    "source_count": 7,
+    "processing_timestamp": "2023-11-08T14:23:45Z"
+  }
+}

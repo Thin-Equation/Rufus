@@ -1,0 +1,2 @@
+[console_scripts]
+rufus-scraper = rufus_scraper.example_api_flow:main
