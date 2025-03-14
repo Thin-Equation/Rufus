@@ -13,7 +13,6 @@ authors = [
 license = {text = "MIT"}
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
 requires-python = ">=3.8"
@@ -69,11 +68,11 @@ dev = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/Thin-Equation/rufus-scraper"
-"Bug Tracker" = "https://github.com/Thin-Equation/rufus-scraper/issues"
+"Homepage" = "https://github.com/Thin-Equation/Rufus"
+"Bug Tracker" = "https://github.com/Thin-Equation/Rufus/issues"
 
 [project.scripts]
-rufus-scraper = "rufus_scraper.example_api_flow:main"
+rufus-scraper = "Rufus.example_api_flow:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
