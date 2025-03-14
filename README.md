@@ -59,10 +59,6 @@ For more detailed examples, see `example_api_flow.py` in the repository.
 - `outputs/` - Default directory for scraping outputs
 - `example_api_flow.py` - Example implementation
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ---
 
 **Note:** This project is under active development. Features and API may change as the project evolves.
