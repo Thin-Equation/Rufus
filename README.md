@@ -24,8 +24,11 @@ git clone https://github.com/Thin-Equation/Rufus.git
 # Navigate to the project directory
 cd Rufus
 
-# Install required dependencies
-pip install -r requirements.txt
+# Install the package (editable mode recommended for development)
+pip install -e .
+
+# To install development dependencies (for testing, linting, etc.)
+pip install -e .[dev]
 ```
 
 ## Usage
@@ -33,16 +36,18 @@ pip install -r requirements.txt
 Basic usage example:
 
 ```python
-# Import the scraper module
-from rufus.client import RufusClient
+# Import the client
+from Rufus.client import RufusClient # Corrected import path
 
-# Initialize a new scraper instance
-scraper = RufusClient(api_key="YOUR RUFUS API KEY", nim_api_key="YOUR NVIDIA NIM API KEY")
+# Initialize a new client instance
+# Ensure you have RUFUS_API_KEY and NVIDIA_NIM_API_KEY set as environment variables
+# or pass them directly: RufusClient(api_key="YOUR...", nim_api_key="YOUR...")
+client = RufusClient()
 
 # Configure and run a scraping job
-results = scraper.scrape(
+results = client.scrape(
     url="https://example.com",
-    instructions="your instructions"
+    instructions="Extract the main title and the first paragraph."
 )
 
 # Process the results

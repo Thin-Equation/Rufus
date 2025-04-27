@@ -3,11 +3,10 @@ import json
 import logging
 import argparse
 
-import sys
-
-current_dir = os.path.dirname(os.path.realpath(__file__))
-
-sys.path.append(os.path.join(current_dir, 'Rufus'))
+# Removed sys.path manipulation as Rufus should be installed as a package
+# import sys
+# current_dir = os.path.dirname(os.path.realpath(__file__))
+# sys.path.append(os.path.join(current_dir, 'Rufus'))
 
 from Rufus.client import RufusClient
 

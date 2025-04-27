@@ -1,8 +1,10 @@
 import logging
 import os
 from datetime import datetime
+from typing import Optional
 
-def setup_logger(log_level=logging.INFO, log_file=None):
+
+def setup_logger(log_level: int = logging.INFO, log_file: Optional[str] = None) -> logging.Logger:
     """
     Configure the logging system for the application.
     
@@ -45,6 +47,7 @@ def setup_logger(log_level=logging.INFO, log_file=None):
         logger.addHandler(file_handler)
     
     return logger
+
 
 # Create a default logger instance
 logger = setup_logger()
